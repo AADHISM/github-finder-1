@@ -7,6 +7,8 @@
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
   --success-color: #28a745;
+  --warning-color: #ffcc00;
+    --warning-color: #5bc0de;
 }
 
 * {
@@ -84,6 +86,10 @@ img {
 
 .text-danger {
   color: var(--danger-color);
+}
+
+.text-warning {
+  color: var(--warning-color);
 }
 
 .text-center {
